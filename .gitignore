@@ -1,0 +1,21 @@
+# Data files (CRITICAL: Do not commit large CSVs)
+data/raw/*
+data/processed/*
+!data/**/README.md
+*.csv
+*.pcap
+
+# Python environments and cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
